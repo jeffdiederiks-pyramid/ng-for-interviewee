@@ -1,0 +1,23 @@
+<div class="toolbar" [@toolbarColor]="this._toolbarMode">
+  <div class="section-left">
+    <button class="icon-button" mat-icon-button matTooltip="Toggle sidebar" matTooltipPosition="right" (click)="this.onMenuIconClick()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="page-title">{{pageTitle}}</span>
+  </div>
+  <div class="section-center">
+    <span class="application-title">[App Title]</span>
+  </div>
+  <div class="section-right">
+    <button class="icon-button" mat-icon-button matTooltip="View notifications" matTooltipPosition="left">
+      <mat-icon>notifications</mat-icon>
+    </button>
+    <button class="icon-button" mat-button matTooltip="View profile" matTooltipPosition="left" [matMenuTriggerFor]="menu">
+      <span class="user-name">John Q. Taxpayer</span>
+      <mat-icon class="profile-icon">person</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" [class]="'profile-menu'">
+      <button mat-menu-item>Sign Out</button>
+    </mat-menu>
+  </div>
+</div>

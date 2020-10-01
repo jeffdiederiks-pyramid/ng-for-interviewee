@@ -1,0 +1,75 @@
+.sidebar {
+  overflow: hidden;
+  height: 100%;
+  padding-top: 68px;
+}
+
+.button {
+  height: 54px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: left;
+  color: #616161;
+  border-radius: 3px;
+}
+
+.button-sections {
+  display: flex;
+  width: 100%;
+}
+
+.button-section-left {
+  flex-grow: 1;
+}
+
+.button-section-right {
+  flex-basis: 24px;
+}
+
+.button-label {
+  margin-left: 18px;
+  font-size: 16px;
+}
+
+.divider {
+  border-top: 1px solid #dcdcdc;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.dashboard-icon {
+  color: #4285f4;
+}
+
+.dashboard-icon {
+  color: #4285f4;
+}
+
+.table-icon {
+  color: #4aa956;
+}
+
+.more-icon {
+  color: #a94a64;
+}
+
+.google-calendar-icon {
+  color: #4787f3;
+}
+
+.trello-icon {
+  font-size: 21px;
+  margin-left: 3px;
+  margin-bottom: 6px;
+  vertical-align: middle;
+  color: #1e5ea9;
+}
+
+.trello-label {
+  margin-left: 22px;
+}

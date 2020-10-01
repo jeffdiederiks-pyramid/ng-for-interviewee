@@ -1,0 +1,65 @@
+.toolbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 56px;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+.section-left {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 14px;
+}
+
+.section-center {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section-right {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 14px;
+}
+
+.icon-button {
+  color: #eee;
+}
+
+.icon-button:hover {
+  color: white;
+}
+
+.application-title {
+  color: white;
+}
+
+.font-awesome-icon {
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+.profile-icon {
+  margin-left: 6px;
+}
+
+.page-title {
+  color: white;
+  line-height: 40px;
+  margin-left: 12px;
+  font-weight: 700;
+}
+
+.user-name {
+  color: white;
+  line-height: 40px;
+  margin-left: 12px;
+  font-weight: 700;
+}

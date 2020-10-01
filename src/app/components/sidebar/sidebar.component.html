@@ -1,0 +1,59 @@
+<div class="sidebar">
+  <button class="button" mat-button matTooltip="View dashboard" matTooltipPosition="right" (click)="this.onDashboardButtonClick()">
+    <div class="button-sections">
+      <div class="button-section-left">
+        <mat-icon class="icon dashboard-icon">dashboard</mat-icon>
+        <span class="button-label">Dashboard</span>
+      </div>
+    </div>
+  </button>
+  <div class="divider"></div>
+  <button class="button" mat-button matTooltip="Table" matTooltipPosition="right" (click)="this.onTableButtonClick()">
+    <div class="button-sections">
+      <div class="button-section-left">
+        <mat-icon class="icon table-icon">create</mat-icon>
+        <span class="button-label">Table</span>
+      </div>
+    </div>
+  </button>
+  <button class="button" mat-button matTooltip="More" matTooltipPosition="right" (click)="this.onMoreButtonClick()">
+    <div class="button-sections">
+      <div class="button-section-left">
+        <mat-icon class="icon more-icon">beenhere</mat-icon>
+        <span class="button-label">More</span>
+      </div>
+    </div>
+  </button>
+  <div class="divider"></div>
+  <button class="button" mat-button matTooltip="Open Google Calendar" matTooltipPosition="right" (click)="this.onGoogleCalendarButtonClick()">
+    <div class="button-sections google-calendar-button">
+      <div class="button-section-left">
+        <mat-icon class="icon google-calendar-icon">event</mat-icon>
+        <span class="button-label">Google Calendar</span>
+      </div>
+      <div class="button-section-right">
+        <mat-icon class="icon new-tab-icon">open_in_new</mat-icon>
+      </div>
+    </div>
+  </button>
+  <button class="button" mat-button matTooltip="Open Trello" matTooltipPosition="right" (click)="this.onTrelloButtonClick()">
+    <div class="button-sections trello-button">
+      <div class="button-section-left">
+        <i class="fab fa-trello trello-icon"></i>
+        <span class="button-label trello-label">Trello</span>
+      </div>
+      <div class="button-section-right">
+        <mat-icon class="icon new-tab-icon">open_in_new</mat-icon>
+      </div>
+    </div>
+  </button>
+  <div class="divider"></div>
+  <button class="button" mat-button matTooltip="Configure the application" matTooltipPosition="right" (click)="this.onSettingsButtonClick()">
+    <div class="button-sections">
+      <div class="button-section-left">
+        <mat-icon class="icon">settings</mat-icon>
+        <span class="button-label">Settings</span>
+      </div>
+    </div>
+  </button>
+</div>

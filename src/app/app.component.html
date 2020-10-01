@@ -1,0 +1,11 @@
+<div class="root">
+  <toolbar (menuButtonClick)="onMenuButtonClick($event)" [toolbarMode]="this.currentPage" class="toolbar"></toolbar>
+  <div class="main">
+    <sidebar (sidebarButtonClick)="onSidebarButtonClick($event)" [@sidebarVisible]="this.sidebarVisible" class="sidebar"></sidebar>
+    <div class="content-container">
+      <div class="content-spacer"></div>
+      <content [visibleContent]="this.currentPage" class="content"></content>
+    </div>
+  </div>
+</div>
+<!-- <router-outlet></router-outlet> -->
